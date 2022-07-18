@@ -1,13 +1,13 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit";
 
-import { LEADERS } from "../shared/leaders"
+import { LEADERS } from "../shared/leaders";
 
 export const leadersSlice = createSlice({
-	name: "leaders",
-	initialState: {
-		leaders: LEADERS,
-	},
-	reducers: {},
-})
+  name: "leaders",
+  initialState: {
+    leaders: LEADERS,
+  },
+  reducers: {},
+});
 
-export default leadersSlice.reducer
+export default leadersSlice.reducer;
