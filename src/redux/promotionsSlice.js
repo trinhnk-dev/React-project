@@ -1,13 +1,13 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit";
 
-import { PROMOTIONS } from "../shared/promotions"
+import { PROMOTIONS } from "../shared/promotions";
 
 export const promotionsSlice = createSlice({
-	name: "promotions",
-	initialState: {
-		promotions: PROMOTIONS,
-	},
-	reducers: {},
-})
+  name: "promotions",
+  initialState: {
+    promotions: PROMOTIONS,
+  },
+  reducers: {},
+});
 
-export default promotionsSlice.reducer
+export default promotionsSlice.reducer;
